@@ -1,23 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Social = () => {
   return (
     <div className="home__social">
-      <a
-        href="https://www.linkedin.com/in/alaahamdy25/"
+      <Link
+        to="https://www.linkedin.com/in/alaahamdy25/"
         className="home__social-icon"
         target="_blank"
       >
         <i className="uil uil-linkedin"></i>        
-      </a>
-      <a
-        href="https://github.com/AlaaHamdyMohammadi"
+      </Link>
+      <Link
+        to="https://github.com/AlaaHamdyMohammadi"
         className="home__social-icon"
         target="_blank"
       >
         <i className="uil uil-github-alt"></i>
-      </a>
+      </Link>
   {/*<a href="" className="home__social-icon" target="_blank"></a>*/}
     </div>
   );

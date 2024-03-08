@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Data = () => {
   return (
@@ -65,7 +66,7 @@ const Data = () => {
         innovative and user-friendly web applications.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <Link to="/contact" className="button button--flex">
         Say Hello
         <svg
           className="button__icon"
@@ -84,7 +85,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </a>
+      </Link>
     </div>
   );
 };

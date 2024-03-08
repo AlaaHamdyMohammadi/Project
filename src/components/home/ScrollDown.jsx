@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ScrollDown = () => {
   return (
     <div className="home__scroll">
-      <a className="home__scroll-button button--flex" href="#about">
+      <Link className="home__scroll-button button--flex" to="/about">
         <svg
           width="32px"
           height="32px"
@@ -44,7 +45,7 @@ const ScrollDown = () => {
 
         <span className="home__scroll-name">Scroll Down</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
-      </a>
+      </Link>
     </div>
   );
 };
