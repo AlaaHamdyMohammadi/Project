@@ -40,7 +40,6 @@
 }
 
 .about__description {
-  padding: 0 4rem;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -86,7 +85,7 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .about__info{
+  .about__info {
     grid-template-columns: repeat(2, 1fr);
   }
 }
