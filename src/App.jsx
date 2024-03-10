@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./App.css";
-import { About, Header, Home, Qualification, Skills } from "./components";
+import { About, Contact, Header, Home, Qualification, Skills } from "./components";
 import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <About/>
         <Skills/>
         <Qualification/>
+        <Contact/>
       </main>
     </BrowserRouter>
   );

@@ -32,11 +32,11 @@ const Header = () => {
               </Link>
             </li>
 
-            <li className="nav__item">
+            {/*<li className="nav__item">
               <Link to="/services" className="nav__link">
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
               </Link>
-            </li>
+            </li>*/}
 
             <li className="nav__item">
               <Link to="/portfolio" className="nav__link">
