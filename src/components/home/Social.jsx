@@ -10,7 +10,7 @@ const Social = () => {
         className="home__social-icon"
         target="_blank"
       >
-        <i className="uil uil-linkedin"></i>        
+        <i className="uil uil-linkedin"></i>
       </Link>
       <Link
         to="https://github.com/AlaaHamdyMohammadi"
@@ -19,7 +19,14 @@ const Social = () => {
       >
         <i className="uil uil-github-alt"></i>
       </Link>
-  {/*<a href="" className="home__social-icon" target="_blank"></a>*/}
+      <Link
+        to="https://www.facebook.com/alaa.hamdy.3597"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-facebook"></i>
+      </Link>
+      {/*<a href="" className="home__social-icon" target="_blank"></a>*/}
     </div>
   );
 };

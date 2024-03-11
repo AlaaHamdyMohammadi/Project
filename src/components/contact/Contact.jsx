@@ -29,13 +29,15 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">
+                alaa.hamdy.mohammadi@gmail.com
+              </span>
 
               <a
                 href="mailto:alaa.hamdy.mohammadi@gmail.com.com"
                 className="contact__button"
               >
-                Write me{" "}
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -44,22 +46,29 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
+              <span className="contact__card-data">01113433881</span>
 
               <Link to="" className="contact__button">
-                Write me{" "}
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </Link>
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-linkedin contact__card-icon"></i>
 
-              <h3 className="contact__card-title"></h3>
-              <span className="contact__card-data"></span>
+              <h3 className="contact__card-title">Linkedin</h3>
+              <span className="contact__card-data">
+                <Link
+                  to="https://www.linkedin.com/in/alaahamdy25/"
+                  className="contact__button"
+                >
+                  Alaa Hamdy
+                </Link>
+              </span>
 
               <Link to="" className="contact__button">
-                Write me{" "}
+                Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </Link>
             </div>
@@ -67,7 +76,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Write me your message</h3>
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
