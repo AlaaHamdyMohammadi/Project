@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Header = () => {
   // Change background header
   window.addEventListener("scroll", function () {
-    // when the scroll is higher than 200 viewport height, add the scroll-header class to the a tag with the scrollup class
+    // when the scroll is higher than 200 viewport height, add the scroll-header class to the a tag with the header tag
     const header = document.querySelector(".header");
-    if (this.scrollY >= 560) header.classList.add("show-scroll");
-    else header.classList.remove("show-scroll");
+    if (this.scrollY >= 80) header.classList.add("scroll-header");
+    else header.classList.remove("scroll-header");
   });
   // Toggle Menu
   const [Toggle, setToggle] = React.useState(false);
-
+  const [activeNav, setActiveNav] = React.useState("#home");
   return (
     <header className="header">
       <nav className="nav container">
@@ -22,21 +22,41 @@ const Header = () => {
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list">
             <li className="nav__item">
-              <Link to="/home" className="nav__link active-link">
+              <a
+                href="#home"
+                onClick={() => setActiveNav("#home")}
+                className={
+                  activeNav === "#home" ? "nav__link active-link" : "nav__link"
+                }
+              >
                 <i className="uil uil-estate nav__icon"></i> Home
-              </Link>
+              </a>
             </li>
 
             <li className="nav__item">
-              <Link to="/about" className="nav__link">
+              <a
+                href="#about"
+                onClick={() => setActiveNav("#about")}
+                className={
+                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                }
+              >
                 <i className="uil uil-user nav__icon"></i> About
-              </Link>
+              </a>
             </li>
 
             <li className="nav__item">
-              <Link to="/skills" className="nav__link">
+              <a
+                href="#skills"
+                onClick={() => setActiveNav("#skills")}
+                className={
+                  activeNav === "#skills"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-file-alt nav__icon"></i> Skills
-              </Link>
+              </a>
             </li>
 
             {/*<li className="nav__item">
@@ -46,15 +66,31 @@ const Header = () => {
             </li>*/}
 
             <li className="nav__item">
-              <Link to="/portfolio" className="nav__link">
+              <a
+                href="#portfolio"
+                onClick={() => setActiveNav("#portfolio")}
+                className={
+                  activeNav === "#portfolio"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
-              </Link>
+              </a>
             </li>
 
             <li className="nav__item">
-              <Link to="/contact" className="nav__link">
+              <a
+                href="#contact"
+                onClick={() => setActiveNav("#contact")}
+                className={
+                  activeNav === "#contact"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
                 <i className="uil uil-message nav__icon"></i> Contact
-              </Link>
+              </a>
             </li>
           </ul>
           <i
