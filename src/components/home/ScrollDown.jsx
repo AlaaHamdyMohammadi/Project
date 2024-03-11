@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ScrollDown = () => {
   return (
     <div className="home__scroll">
-      <Link className="home__scroll-button button--flex" to="/about">
+      <a className="home__scroll-button button--flex" href="#about">
         <svg
           width="32px"
           height="32px"
@@ -45,7 +45,7 @@ const ScrollDown = () => {
 
         <span className="home__scroll-name">Scroll Down</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
-      </Link>
+      </a>
     </div>
   );
 };

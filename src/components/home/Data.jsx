@@ -59,14 +59,15 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        As a frontend developer with extensive experience in HTML, CSS, SASS,
-        Bootstrap, JavaScript, ES6, React JS, React Hooks, Redux, React Router,
-        Axios, Next js, Ant design, Material UI, Git, Typescript, Angular and
-        Figma I’m seeking to leverage my skills and expertise to develop
-        innovative and user-friendly web applications.
+        Passionate MEARN Stack Developer with a strong dedication to programming
+        and an in-depth grasp of web technologies. Demonstrates a firm grasp of
+        programming principles and a proven history of delivering reliable web
+        applications. Committed to staying current with industry advancements
+        and consistently improving skills to foster innovation in web
+        development.
       </p>
 
-      <Link to="/contact" className="button button--flex">
+      <a href="#contact" className="button button--flex">
         Say Hello
         <svg
           className="button__icon"
@@ -85,7 +86,7 @@ const Data = () => {
             fill="var(--container-color)"
           ></path>
         </svg>
-      </Link>
+      </a>
     </div>
   );
 };
