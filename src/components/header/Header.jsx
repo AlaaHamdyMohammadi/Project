@@ -2,6 +2,13 @@ import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 const Header = () => {
+  // Change background header
+  window.addEventListener("scroll", function () {
+    // when the scroll is higher than 200 viewport height, add the scroll-header class to the a tag with the scrollup class
+    const header = document.querySelector(".header");
+    if (this.scrollY >= 560) header.classList.add("show-scroll");
+    else header.classList.remove("show-scroll");
+  });
   // Toggle Menu
   const [Toggle, setToggle] = React.useState(false);
 
