@@ -23,30 +23,28 @@ const Footer = () => {
         <div className="footer__social">
           <Link
             to="https://www.linkedin.com/in/alaahamdy25/"
-            className="footer__social"
+            className="footer__social-link"
             target="_blank"
           >
             <i className="uil uil-linkedin"></i>
           </Link>
           <Link
             to="https://github.com/AlaaHamdyMohammadi"
-            className="footer__social"
+            className="footer__social-link"
             target="_blank"
           >
             <i className="uil uil-github-alt"></i>
           </Link>
           <Link
             to="https://www.facebook.com/alaa.hamdy.3597"
-            className="footer__social"
+            className="footer__social-link"
             target="_blank"
           >
             <i className="uil uil-facebook"></i>
           </Link>
         </div>
 
-        <span className="footer__copy">
-          &#169; Alaa. All rights reserved
-        </span>
+        <span className="footer__copy">&#169; Alaa. All rights reserved</span>
       </div>
     </footer>
   );
