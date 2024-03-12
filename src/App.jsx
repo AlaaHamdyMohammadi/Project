@@ -1,7 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "./App.css";
-import { About, Contact, Footer, Header, Home, Qualification, ScrollUp, Skills } from "./components";
+import {
+  About,
+  Contact,
+  Footer,
+  Header,
+  Home,
+  Qualification,
+  ScrollUp,
+  Skills,
+  Work,
+} from "./components";
 import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
@@ -9,13 +19,14 @@ function App() {
       <Header />
       <main className="main">
         <Home />
-        <About/>
-        <Skills/>
-        <Qualification/>
-        <Contact/>
+        <About />
+        <Skills />
+        <Qualification />
+        <Work />
+        <Contact />
       </main>
-      <Footer/>
-      <ScrollUp/>
+      <Footer />
+      <ScrollUp />
     </BrowserRouter>
   );
 }
