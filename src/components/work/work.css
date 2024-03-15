@@ -99,3 +99,10 @@
     width: 100%;
   }
 }
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .work__item {
+    gap: 0.5rem;
+  }
+}
