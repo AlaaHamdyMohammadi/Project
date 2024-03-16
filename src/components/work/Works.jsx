@@ -20,7 +20,7 @@ const Works = () => {
   }, [item]);
 
   const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent });
+    setItem({ name: e.target.textContent.toLowerCase() });
     setActive(index);
   };
 
