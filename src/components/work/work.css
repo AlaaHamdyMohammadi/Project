@@ -103,6 +103,9 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
   .work__item {
-    gap: 0.5rem;
+    font-size: var(--small-font-size);
+  }
+  .work__filters {
+    column-gap: 0.25rem;
   }
 }
