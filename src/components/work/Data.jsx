@@ -8,8 +8,9 @@ export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
+    title: "Noon website",
+    category: "JavaScript",
+    link: "https://noon-website-nu.vercel.app/",
   },
   {
     id: 2,
@@ -39,7 +40,7 @@ export const projectsData = [
 
 export const projectsNav = [
   { name: "all" },
-  { name: "web" },
+  { name: "JavaScript" },
   { name: "app" },
   { name: "design" },
 ];
