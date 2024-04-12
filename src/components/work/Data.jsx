@@ -40,7 +40,7 @@ export const projectsData = [
     id: 5,
     image: Work5,
     title: "Noon website",
-    category: "JavaScript",
+    category: "app",
     link: "https://noon-website-nu.vercel.app/",
   },
 ];
