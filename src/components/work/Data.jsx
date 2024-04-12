@@ -5,6 +5,8 @@ import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
 import Bankist from "../../assets/Bankist.jpg";
 import Noon from "../../assets/Noon.jpeg";
+import mapty from "../../assets/mapty.jpg";
+import logo from "../../assets/logo.png";
 
 export const projectsData = [
   {
@@ -23,9 +25,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
+    image: logo,
+    title: "Mapty",
+    category: "JavaScript",
+    link: "https://mapty-olive-eight.vercel.app/",
   },
   {
     id: 4,
