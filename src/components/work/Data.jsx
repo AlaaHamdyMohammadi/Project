@@ -33,7 +33,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work5,
+    image: fastPizza,
     title: "Fast Pizza",
     category: "ReactJS",
     link: "https://fast-react-pizza-ecru.vercel.app/",
