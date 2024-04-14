@@ -2,12 +2,14 @@
 // import Work2 from "../../assets/work2.jpg";
 // import Work3 from "../../assets/work3.jpg";
 // import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+// import mapty from "../../assets/mapty.jpg";
+// import Work5 from "../../assets/work5.jpg";
 import Bankist from "../../assets/Bankist.jpg";
 import Noon from "../../assets/Noon.jpeg";
-// import mapty from "../../assets/mapty.jpg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
+import quiz from "../../assets/quiz.jpg";
+
 
 export const projectsData = [
   {
@@ -40,10 +42,10 @@ export const projectsData = [
   },
   {
     id: 5,
-    image: Work5,
-    title: "Noon website",
-    category: "app",
-    link: "https://noon-website-nu.vercel.app/",
+    image: quiz,
+    title: "Quiz App",
+    category: "ReactJS",
+    link: "https://react-quiz-app-ashen.vercel.app/",
   },
 ];
 
