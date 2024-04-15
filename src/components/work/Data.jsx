@@ -1,11 +1,5 @@
-// import Work1 from "../../assets/work1.jpg";
-// import Work2 from "../../assets/work2.jpg";
-// import Work3 from "../../assets/work3.jpg";
-// import Work4 from "../../assets/work4.jpg";
-// import mapty from "../../assets/mapty.jpg";
-// import Work5 from "../../assets/work5.jpg";
-import Bankist from "../../assets/Bankist.jpg";
 import Noon from "../../assets/Noon.jpeg";
+import Bankist from "../../assets/Bankist.jpg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/quiz.jpg";
