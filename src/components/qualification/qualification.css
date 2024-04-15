@@ -28,6 +28,7 @@
 
 .qualification__active {
   color: var(--title-color-dark);
+  font-weight: var(--font-semi-bold);
 }
 
 .qualification__sections {
