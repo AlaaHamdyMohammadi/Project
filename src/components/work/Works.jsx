@@ -11,6 +11,7 @@ const Works = () => {
   React.useEffect(() => {
     if (item.name === "all") {
       setProjects(projectsData);
+      console.log("projectsData", projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
         return project.category.toLowerCase() === item.name;

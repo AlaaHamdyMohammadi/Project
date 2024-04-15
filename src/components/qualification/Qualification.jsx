@@ -22,7 +22,7 @@ const Qualification = () => {
             onClick={() => handleToggle(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            Experience
           </div>
 
           <div
@@ -34,13 +34,13 @@ const Qualification = () => {
             onClick={() => handleToggle(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            Education
           </div>
         </div>
         <div className="qualification__sections">
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -114,7 +114,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggleState === 2
+              toggleState === 1
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -122,7 +122,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">Eat Now Company</span>
+                <span className="qualification__subtitle">Order Now Company</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Mar 2023 - Present
                 </div>
@@ -148,36 +148,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-
-            {/*<div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web</h3>
-                <span className="qualification__subtitle">span</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Art</h3>
-                <span className="qualification__subtitle">span</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020
-                </div>
-              </div>
-        </div>*/}
           </div>
         </div>
       </div>

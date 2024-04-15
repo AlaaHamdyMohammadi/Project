@@ -9,6 +9,7 @@ import Noon from "../../assets/Noon.jpeg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/quiz.jpg";
+import cabin from "../../assets/cabin-001.jpg"
 
 
 export const projectsData = [
@@ -47,11 +48,18 @@ export const projectsData = [
     category: "ReactJS",
     link: "https://react-quiz-app-ashen.vercel.app/",
   },
+  {
+    id: 6,
+    image: cabin,
+    title: "The Wild Oasis",
+    category: "ReactJS",
+    link: "https://the-wild-oasis-react-app-five.vercel.app",
+  },
 ];
 
 export const projectsNav = [
-  { name: "all" },
+  { name: "All" },
   { name: "JavaScript" },
   { name: "ReactJS" },
-  { name: "design" },
+  { name: "NextJS" },
 ];
