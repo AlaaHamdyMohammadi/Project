@@ -5,6 +5,7 @@ import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/work1.jpg";
 import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
+import schnitzel from "../../assets/schnitzel.jpg";
 
 export const projectsData = [
   {
@@ -55,6 +56,13 @@ export const projectsData = [
     title: "Udemy Website",
     category: "ReactJS",
     link: "https://udemy-website-pi.vercel.app/",
+  },
+  {
+    id: 8,
+    image: schnitzel,
+    title: "NextLevel Food",
+    category: "NextJS",
+    link: "https://foodies-app-next-js-14.vercel.app/",
   },
 ];
 
