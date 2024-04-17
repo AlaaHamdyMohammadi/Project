@@ -2,7 +2,7 @@ import Noon from "../../assets/Noon.jpeg";
 import Bankist from "../../assets/Bankist.jpg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
-import quiz from "../../assets/quiz.jpg";
+import quiz from "../../assets/work1.jpg";
 import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
 
