@@ -13,9 +13,15 @@ const WorkItems = ({ item }) => {
       />
 
       <h3 className="work__title">{item.title}</h3>
-      <a href={item.link} target="blank" className="work__button">
-        Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-      </a>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <a href={item.demo} target="blank" className="work__button">
+          Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        </a>
+        <a href={item.link} target="blank" className="work__button">
+          GitHub Link{" "}
+          <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        </a>
+      </div>
     </div>
   );
 };
