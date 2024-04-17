@@ -12,7 +12,7 @@
 .home__social {
   display: grid;
   grid-template-columns: max-content;
-  row-gap: 1rem;
+  row-gap: 3rem;
 }
 
 .home__social-icon {

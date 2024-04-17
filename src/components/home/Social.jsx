@@ -19,13 +19,13 @@ const Social = () => {
       >
         <i className="uil uil-github-alt"></i>
       </Link>
-      <Link
+      {/*<Link
         to="https://www.facebook.com/alaa.hamdy.3597"
         className="home__social-icon"
         target="_blank"
       >
         <i className="uil uil-facebook"></i>
-      </Link>
+      </Link>*/}
       {/*<a href="" className="home__social-icon" target="_blank"></a>*/}
     </div>
   );
