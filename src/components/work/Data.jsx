@@ -3,8 +3,8 @@ import Bankist from "../../assets/Bankist.jpg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/quiz.jpg";
-import cabin from "../../assets/cabin-001.jpg"
-
+import cabin from "../../assets/cabin-001.jpg";
+import udemyLogo from "../../assets/udemyImg.jpg";
 
 export const projectsData = [
   {
@@ -48,6 +48,13 @@ export const projectsData = [
     title: "The Wild Oasis",
     category: "ReactJS",
     link: "https://the-wild-oasis-react-app-five.vercel.app",
+  },
+  {
+    id: 7,
+    image: udemyLogo,
+    title: "Udemy Website",
+    category: "ReactJS",
+    link: "https://udemy-website-pi.vercel.app/",
   },
 ];
 
