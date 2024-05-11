@@ -7,7 +7,7 @@ const Qualification = () => {
   const handleToggle = (index) => {
     setToggleState(index);
   };
-  return ( 
+  return (
     <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My personal journey</span>
@@ -122,9 +122,11 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">Order Now Company</span>
+                <span className="qualification__subtitle">
+                  Order Now Company
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Mar 2023 - Present
+                  <i className="uil uil-calendar-alt"></i> Mar 2023 - Apr 2024
                 </div>
               </div>
 
@@ -144,8 +146,24 @@ const Qualification = () => {
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">Freelance</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Jan 2024 - Present
                 </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">
+                  DigiFly Company
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> May 2024 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
