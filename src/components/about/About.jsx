@@ -6,6 +6,7 @@ import CV from "../../assets/Frontend Developer - Alaa Hamdy.pdf";
 import Info from "./Info";
 import { Link } from "react-router-dom";
 
+
 const About = () => {
   return (
     <section className="about section" id="about">
