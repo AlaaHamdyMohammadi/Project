@@ -6,6 +6,7 @@ import quiz from "../../assets/work1.jpg";
 import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
 import schnitzel from "../../assets/schnitzel.jpg";
+import parking from "../../assets/Parking.gif";
 
 export const projectsData = [
   {
@@ -71,6 +72,14 @@ export const projectsData = [
     category: "NextJS",
     demo: "https://foodies-app-next-js-14.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/FoodiesApp-NextJS14",
+  },
+  {
+    id: 9,
+    image: parking,
+    title: "Parking Point",
+    category: "ReactJS",
+    demo: "https://parking-point-website.vercel.app/",
+    link: "https://github.com/EsraaFathi/E-parking_USER",
   },
 ];
 
