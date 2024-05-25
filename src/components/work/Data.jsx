@@ -78,8 +78,8 @@ export const projectsData = [
     image: parking,
     title: "Parking Point",
     category: "ReactJS",
-    demo: "https://parking-point-website.vercel.app/",
-    link: "https://github.com/EsraaFathi/E-parking_USER",
+    demo: "https://parking-point-website-pink.vercel.app/",
+    link: "https://github.com/AlaaHamdyMohammadi/Parking-Point",
   },
 ];
 
