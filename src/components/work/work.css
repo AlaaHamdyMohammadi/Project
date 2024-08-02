@@ -67,6 +67,17 @@
   color: var(--container-color);
 }
 
+.show-btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  background: transparent;
+  align-items: center;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
 /* Breakpoints */
 @media screen and (max-width: 992px) {
   .work__container {
@@ -96,7 +107,8 @@
     grid-template-columns: 1fr;
   }
   .work__img {
-    width: 100%;
+    width: 100% !important;
+    
   }
 }
 
@@ -108,4 +120,5 @@
   .work__filters {
     column-gap: 0.25rem;
   }
+  
 }

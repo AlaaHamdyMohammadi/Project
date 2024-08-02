@@ -5,8 +5,9 @@ import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/work1.jpg";
 import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
-import schnitzel from "../../assets/schnitzel.jpg";
+//import schnitzel from "../../assets/schnitzel.jpg";
 import parking from "../../assets/Parking.gif";
+import megatop from "../../assets/megatop.png";
 
 export const projectsData = [
   {
@@ -16,6 +17,7 @@ export const projectsData = [
     category: "JavaScript",
     demo: "https://noon-website-nu.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Noon-Website",
+    private: false,
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ export const projectsData = [
     category: "JavaScript",
     demo: "https://bankist-project-psi.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Bankist-Project",
+    private: false,
   },
   {
     id: 3,
@@ -32,6 +35,7 @@ export const projectsData = [
     category: "JavaScript",
     demo: "https://mapty-olive-eight.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Mapty",
+    private: false,
   },
   {
     id: 4,
@@ -40,6 +44,7 @@ export const projectsData = [
     category: "ReactJS",
     demo: "https://fast-react-pizza-ecru.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Fast-React-Pizza",
+    private: false,
   },
   {
     id: 5,
@@ -48,6 +53,7 @@ export const projectsData = [
     category: "ReactJS",
     demo: "https://react-quiz-app-ashen.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/React-Quiz-App",
+    private: false,
   },
   {
     id: 6,
@@ -56,6 +62,7 @@ export const projectsData = [
     category: "ReactJS",
     demo: "https://the-wild-oasis-react-app-five.vercel.app",
     link: "https://github.com/AlaaHamdyMohammadi/TheWildOasis-React-App",
+    private: false,
   },
   {
     id: 7,
@@ -64,15 +71,17 @@ export const projectsData = [
     category: "ReactJS",
     demo: "https://udemy-website-pi.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Udemy-React-ITI-Project",
+    private: true,
   },
-  {
-    id: 8,
-    image: schnitzel,
-    title: "NextLevel Food",
-    category: "NextJS",
-    demo: "https://foodies-app-next-js-14.vercel.app/",
-    link: "https://github.com/AlaaHamdyMohammadi/FoodiesApp-NextJS14",
-  },
+  // {
+  //   id: 8,
+  //   image: schnitzel,
+  //   title: "NextLevel Food",
+  //   category: "NextJS",
+  //   demo: "https://foodies-app-next-js-14.vercel.app/",
+  //   link: "https://github.com/AlaaHamdyMohammadi/FoodiesApp-NextJS14",
+  //   private: false,
+  // },
   {
     id: 9,
     image: parking,
@@ -80,6 +89,15 @@ export const projectsData = [
     category: "ReactJS",
     demo: "https://parking-point-website-pink.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/Parking-Point",
+    private: true,
+  },
+  {
+    id: 10,
+    image: megatop,
+    title: "Megatop",
+    category: "NextJS",
+    demo: "https://megatop.com.eg/en",
+    private: true,
   },
 ];
 

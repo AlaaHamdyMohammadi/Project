@@ -2,7 +2,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/Alaa.jpeg";
-import CV from "../../assets/Alaa Hamdy.pdf";
+import CV from "../../assets/Frontend Developer - Alaa Hamdy.pdf";
 import Info from "./Info";
 import { Link } from "react-router-dom";
 
