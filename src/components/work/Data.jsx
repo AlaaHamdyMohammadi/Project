@@ -3,11 +3,12 @@ import Bankist from "../../assets/Bankist.jpg";
 import logo from "../../assets/logo.png";
 import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/work1.jpg";
-import cabin from "../../assets/cabin-001.jpg";
+//import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
 //import schnitzel from "../../assets/schnitzel.jpg";
 import parking from "../../assets/Parking.gif";
 import megatop from "../../assets/megatop.png";
+import theWildOasis from "../../assets/theWildOasis.png";
 
 export const projectsData = [
   {
@@ -55,15 +56,15 @@ export const projectsData = [
     link: "https://github.com/AlaaHamdyMohammadi/React-Quiz-App",
     private: false,
   },
-  {
-    id: 6,
-    image: cabin,
-    title: "The Wild Oasis",
-    category: "ReactJS",
-    demo: "https://the-wild-oasis-react-app-five.vercel.app",
-    link: "https://github.com/AlaaHamdyMohammadi/TheWildOasis-React-App",
-    private: false,
-  },
+  // {
+  //   id: 6,
+  //   image: cabin,
+  //   title: "The Wild Oasis",
+  //   category: "ReactJS",
+  //   demo: "https://the-wild-oasis-react-app-five.vercel.app",
+  //   link: "https://github.com/AlaaHamdyMohammadi/TheWildOasis-React-App",
+  //   private: false,
+  // },
   {
     id: 7,
     image: udemyLogo,
@@ -98,6 +99,15 @@ export const projectsData = [
     category: "NextJS",
     demo: "https://megatop.com.eg/en",
     private: true,
+  },
+  {
+    id: 11,
+    image: theWildOasis,
+    title: "The Wild Oasis",
+    category: "NextJS",
+    demo: "https://the-wild-oasis-website-sable-two.vercel.app/",
+    link: "https://github.com/AlaaHamdyMohammadi/the-wild-oasis-website",
+    private: false,
   },
 ];
 
