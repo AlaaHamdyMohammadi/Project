@@ -9,6 +9,7 @@ import udemyLogo from "../../assets/udemyImg.jpg";
 import parking from "../../assets/Parking.gif";
 import megatop from "../../assets/megatop.png";
 import theWildOasis from "../../assets/theWildOasis.png";
+import laam from "../../assets/laam.png";
 
 export const projectsData = [
   {
@@ -108,6 +109,14 @@ export const projectsData = [
     demo: "https://the-wild-oasis-website-sable-two.vercel.app/",
     link: "https://github.com/AlaaHamdyMohammadi/the-wild-oasis-website",
     private: false,
+  },
+  {
+    id: 11,
+    image: laam,
+    title: "Laam",
+    category: "NextJS",
+    demo: "https://laam-git-before-integration-mostafamahgoubs-projects.vercel.app/",
+    private: true,
   },
 ];
 
