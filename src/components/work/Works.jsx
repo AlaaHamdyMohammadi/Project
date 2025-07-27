@@ -15,9 +15,11 @@ const Works = () => {
     if (item.name === "all") {
       newProjects = [...projectsData].reverse();
     } else {
-      newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
-      });
+      newProjects = projectsData
+        .filter((project) => {
+          return project.category.toLowerCase() === item.name;
+        })
+        .reverse();
     }
     setProjects(newProjects);
   }, [item]);

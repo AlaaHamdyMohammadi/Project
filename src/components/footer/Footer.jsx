@@ -44,7 +44,7 @@ const Footer = () => {
           </Link>
         </div>
 
-        <span className="footer__copy">&#169; Alaa. All rights reserved</span>
+        <span className="footer__copy">All rights reserved &#169; Alaa.</span>
       </div>
     </footer>
   );

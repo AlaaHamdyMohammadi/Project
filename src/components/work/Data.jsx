@@ -9,7 +9,8 @@ import udemyLogo from "../../assets/udemyImg.jpg";
 import parking from "../../assets/Parking.gif";
 import megatop from "../../assets/megatop.png";
 import theWildOasis from "../../assets/theWildOasis.png";
-import laam from "../../assets/laam.png";
+import laam from "../../assets/laam logo.svg";
+import chemia from "../../assets/chemia logo.svg";
 
 export const projectsData = [
   {
@@ -111,11 +112,27 @@ export const projectsData = [
     private: false,
   },
   {
-    id: 11,
+    id: 12,
     image: laam,
     title: "Laam",
     category: "NextJS",
     demo: "https://laam-git-before-integration-mostafamahgoubs-projects.vercel.app/",
+    private: true,
+  },
+  {
+    id: 13,
+    image: chemia,
+    title: "Chemia Website",
+    category: "NextJS",
+    demo: "https://chemia-website.vercel.app/en",
+    private: true,
+  },
+  {
+    id: 14,
+    image: chemia,
+    title: "Chemia Dashboard",
+    category: "NextJS",
+    demo: "https://chemia-dashbord.vercel.app/en",
     private: true,
   },
 ];

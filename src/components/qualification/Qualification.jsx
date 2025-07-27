@@ -21,7 +21,7 @@ const Qualification = () => {
             }
             onClick={() => handleToggle(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon"></i>
+            <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
 
@@ -33,7 +33,7 @@ const Qualification = () => {
             }
             onClick={() => handleToggle(2)}
           >
-            <i className="uil uil-briefcase-alt qualification__icon"></i>
+            <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
         </div>
@@ -153,9 +153,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">
-                  DigiFly Company
-                </span>
+                <span className="qualification__subtitle">DigiFly Company</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> May 2024 - Present
                 </div>
@@ -164,6 +162,20 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">Be Tech Company</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
+                </div>
               </div>
             </div>
           </div>

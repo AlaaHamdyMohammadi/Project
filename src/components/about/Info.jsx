@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
 import { projectsData } from "../work/Data";
-
 
 const Info = () => {
   return (
@@ -9,7 +7,7 @@ const Info = () => {
       <div className="about__box">
         <i className="bx bx-award about__icon"></i>
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">1 year experience</span>
+        <span className="about__subtitle">3 year experience</span>
       </div>
 
       <div className="about__box">
