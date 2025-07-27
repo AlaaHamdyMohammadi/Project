@@ -21,7 +21,7 @@ const About = () => {
             As a frontend developer with extensive experience in HTML, CSS,
             SASS, Tailwind, JavaScript, ES6, React JS, React Hooks, Redux,
             React Router, Axios, Next js, Ant design, Shadcn, Material UI, Git,
-            Typescript, and Figma I’m seeking to leverage my skills and
+            Typescript, Monorepo strategy, and Figma I’m seeking to leverage my skills and
             expertise to develop innovative and user-friendly web applications.
           </p>
           <a download="" className="button button--flex" href={CV} target="_blank">
