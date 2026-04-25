@@ -11,6 +11,7 @@ import megatop from "../../assets/megatop.png";
 import theWildOasis from "../../assets/theWildOasis.png";
 import laam from "../../assets/laam logo.svg";
 import chemia from "../../assets/chemia logo.svg";
+import asses from "../../assets/asses_enhanced.svg";
 
 export const projectsData = [
   {
@@ -133,6 +134,14 @@ export const projectsData = [
     title: "Chemia Dashboard",
     category: "NextJS",
     demo: "https://chemia-dashbord.vercel.app/en",
+    private: true,
+  },
+  {
+    id: 15,
+    image: asses,
+    title: "Asses Dashboard",
+    category: "NextJS",
+    demo: "https://nafes-eta.vercel.app",
     private: true,
   },
 ];

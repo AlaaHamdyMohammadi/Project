@@ -2,7 +2,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/Alaa.jpeg";
-import CV from "../../assets/Frontend Developer - Alaa Hamdy.pdf";
+import CV from "../../assets/Frontend Developer -Alaa Hamdy.pdf";
 import Info from "./Info";
 import { Link } from "react-router-dom";
 
@@ -20,7 +20,7 @@ const About = () => {
           <p className="about__description">
             As a frontend developer with extensive experience in HTML, CSS,
             SASS, Tailwind, JavaScript, ES6, React JS, React Hooks, Redux,
-            React Router, Axios, Next js, Ant design, Shadcn, Material UI, Git,
+            React Router, Next js, Ant design, Shadcn, Material UI, Git,
             Typescript, Monorepo strategy, and Figma I’m seeking to leverage my skills and
             expertise to develop innovative and user-friendly web applications.
           </p>

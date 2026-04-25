@@ -122,11 +122,10 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">
-                  Order Now Company
-                </span>
+                <span className="qualification__subtitle">Be Tech Company</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Mar 2023 - Apr 2024
+                  <i className="uil uil-calendar-alt"></i>
+                  Dec 2024 - Present
                 </div>
               </div>
 
@@ -135,7 +134,6 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-
             <div className="qualification__data">
               <div></div>
               <div>
@@ -144,7 +142,9 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">Freelance</span>
+                <span className="qualification__subtitle">
+                  BrightByte Company
+                </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> Jan 2024 - Present
                 </div>
@@ -155,7 +155,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">DigiFly Company</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> May 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> May 2024 - Apr 2026
                 </div>
               </div>
 
@@ -172,9 +172,11 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
-                <span className="qualification__subtitle">Be Tech Company</span>
+                <span className="qualification__subtitle">
+                  Order Now Company
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Dec 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Mar 2023 - Apr 2024
                 </div>
               </div>
             </div>
