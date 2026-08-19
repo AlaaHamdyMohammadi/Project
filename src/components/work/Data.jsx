@@ -12,6 +12,7 @@ import theWildOasis from "../../assets/theWildOasis.png";
 import laam from "../../assets/laam logo.svg";
 import chemia from "../../assets/chemia logo.svg";
 import asses from "../../assets/asses_enhanced.svg";
+import focalPoint from "../../assets/logo.webp";
 
 export const projectsData = [
   {
@@ -142,6 +143,22 @@ export const projectsData = [
     title: "Asses Dashboard",
     category: "NextJS",
     demo: "https://nafes-eta.vercel.app",
+    private: true,
+  },
+  {
+    id: 16,
+    image: focalPoint,
+    title: "Focal Point Website",
+    category: "NextJS",
+    demo: "https://focal-point-website.vercel.app/en",
+    private: true,
+  },
+  {
+    id: 17,
+    image: focalPoint,
+    title: "Focal Point Owner",
+    category: "NextJS",
+    demo: "https://focal-point-owner.vercel.app",
     private: true,
   },
 ];
