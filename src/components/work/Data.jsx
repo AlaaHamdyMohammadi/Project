@@ -13,6 +13,7 @@ import laam from "../../assets/laam logo.svg";
 import chemia from "../../assets/chemia logo.svg";
 import asses from "../../assets/asses_enhanced.svg";
 import focalPoint from "../../assets/logo.webp";
+import amrAli from "../../assets/amrAli.png";
 
 export const projectsData = [
   {
@@ -159,6 +160,14 @@ export const projectsData = [
     title: "Focal Point Owner",
     category: "NextJS",
     demo: "https://focal-point-owner.vercel.app",
+    private: true,
+  },
+  {
+    id: 17,
+    image: amrAli,
+    title: "Amr Ali For Contacting & General Trading",
+    category: "NextJS",
+    demo: "https://amr-ali.com/en",
     private: true,
   },
 ];
