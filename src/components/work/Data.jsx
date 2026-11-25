@@ -163,7 +163,7 @@ export const projectsData = [
     private: true,
   },
   {
-    id: 17,
+    id: 18,
     image: amrAli,
     title: "Amr Ali For Contacting & General Trading",
     category: "NextJS",
