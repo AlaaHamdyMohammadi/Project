@@ -5,7 +5,7 @@ import fastPizza from "../../assets/fast-pizza.jpg";
 import quiz from "../../assets/work1.jpg";
 //import cabin from "../../assets/cabin-001.jpg";
 import udemyLogo from "../../assets/udemyImg.jpg";
-//import schnitzel from "../../assets/schnitzel.jpg";
+//import schnitzel from "../../assets/schnitzel.jpg" test;
 import parking from "../../assets/Parking.gif";
 import megatop from "../../assets/megatop.png";
 import theWildOasis from "../../assets/theWildOasis.png";
